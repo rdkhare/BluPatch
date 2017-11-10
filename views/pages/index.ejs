@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title>Azool</title>
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="1504">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+
+ $(document).ready(function(){
+    $("button").click(function(){
+    console.log("hi test");
+    $.ajax({
+       url: "https://crossorigin.me/https://www.cnn.com",
+       cache: false,
+       success: function(response){
+           $(response).find('.cd__headline-text').each(function(){
+              console.log($(this));
+           });
+      }
+    });
+    });
+});
+</script>
+
+  </head>
+<body>
+  <div class = "navbar">
+  <img src = "img/bluPatch.png" align ="left" width="183" height="64">
+  <a href="about" id="about">about</a>
+  <a href="#" id="discussion">talks</a>
+  <a href="#" id="around">map</a>
+  <a href="#" id="login">login</a>
+  </div>
+  
+  <button>Click me</button>
+
+  <p class = "results">
+  </p>
+</body>
+</html>
