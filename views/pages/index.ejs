@@ -3,8 +3,14 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta http-equiv="Content-Style-Type" content="text/css">
+<<<<<<< HEAD
+  <title>BluPatch</title>
+  <link rel="stylesheet" href="/stylesheets/style.css" type="text/css">
+  <link rel="icon" type="/img/bluPatch.png">
+=======
   <title>Azool</title>
   <link rel="stylesheet" href="style.css" type="text/css">
+>>>>>>> 56502e8d2469f4c7ec585248eb843ae06f4c0ddd
   <meta name="Generator" content="Cocoa HTML Writer">
   <meta name="CocoaVersion" content="1504">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -12,6 +18,13 @@
 
  $(document).ready(function(){
     $("button").click(function(){
+<<<<<<< HEAD
+    $.ajax({
+       url: "https://www.money.cnn.com",
+       cache: false,
+       success: function(response){
+           console.log(response.getElementsByClassName("homepage-stack-hed-container"));
+=======
     console.log("hi test");
     $.ajax({
        url: "https://crossorigin.me/https://www.cnn.com",
@@ -20,6 +33,7 @@
            $(response).find('.cd__headline-text').each(function(){
               console.log($(this));
            });
+>>>>>>> 56502e8d2469f4c7ec585248eb843ae06f4c0ddd
       }
     });
     });
@@ -29,10 +43,17 @@
   </head>
 <body>
   <div class = "navbar">
+<<<<<<< HEAD
+  <img src = "/img/bluPatch.png" align ="left" width="183" height="64">
+  <a href="about" id="about">about</a>
+  <a href="#" id="talks">talks</a>
+  <a href="#" id="map">map</a>
+=======
   <img src = "img/bluPatch.png" align ="left" width="183" height="64">
   <a href="about" id="about">about</a>
   <a href="#" id="discussion">talks</a>
   <a href="#" id="around">map</a>
+>>>>>>> 56502e8d2469f4c7ec585248eb843ae06f4c0ddd
   <a href="#" id="login">login</a>
   </div>
   
