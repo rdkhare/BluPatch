@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title>BluPatch</title>
+  <link rel="stylesheet" href="/stylesheets/style.css" type="text/css">
+  <link rel="icon" href="/img/bluIcon.jpg">
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="1504">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+/*
+function createCORSRequest(method, url) {
+  var xhr = new XMLHttpRequest();
+  if ("withCredentials" in xhr) {
+    // XHR for Chrome/Firefox/Opera/Safari.
+    xhr.open(method, url, true);
+  } else if (typeof XDomainRequest != "undefined") {
+    // XDomainRequest for IE.
+    xhr = new XDomainRequest();
+    xhr.open(method, url);
+  } else {
+    // CORS not supported.
+    xhr = null;
+  }
+  return xhr;
+}
+
+// Helper method to parse the title tag from the response.
+function getTitle(text) {
+  return text.match('<title>(.*)?</span>')[1];
+}
+
+// Make the actual CORS request.
+function makeCorsRequest() {
+  // This is a sample server that supports CORS.
+  var url = 'https://www.cnn.com';
+
+  var xhr = createCORSRequest('GET', url);
+  if (!xhr) {
+    alert('CORS not supported');
+    return;
+  }
+
+  // Response handlers.
+  xhr.onload = function() {
+    var text = xhr.responseText;
+    var title = getTitle(text);
+    alert('Response from CORS request to ' + url + ': ' + title);
+  };
+
+  xhr.onerror = function() {
+    alert('Woops, there was an error making the request.');
+  };
+
+  xhr.send();
+}
+
+ $(document).ready(function(){
+    console.log("hi test");
+    makeCorsRequest();
+});*/
+
+</script>
+
+  </head>
+<body>
+
+  <%- include('partials/nav') %>
+  
+  <div class= "fill" style="width:100%;height:450px;margin:0px;">
+    <img src ="/img/naturetwo.png">
+    <div class ="centerText">
+      Welcome to BluPatch.
+    </div>
+  </div>
+<div class ="mission" style ="margin:0px;">
+  <b><p class= "center-mission" align = "center" style="padding-top: 10px;">Our Mission</p></b>
+  <p class ="mission-statement" align = "left">To counteract the effects of global climate change by assimilating and dispensing relevant information to effectively mobilize users, by creating passionate activists out of ordinary people, and by developing a strong and connected community that cooperates to achieve a shared goal at a local, national, and international level.</p>
+</div>
+  <!-- button>Click me</button -->
+<div class= "fill" style="width:100%;height:450px;margin:0px;">
+    <img src ="/img/nature.png">
+    <div class ="centerTextOne">Who Are We?
+      <p align= "left">A group of high school students concerned with the welfare of our community and the planet as a whole.</p>
+    </div>
+  </div>
+  <p class = "results">
+  </p>
+</body>
+</html>
