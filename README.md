@@ -7,7 +7,7 @@ A website that helps in connecting people around the world to discuss a world is
 Make sure you have [Node.js](http://nodejs.org/) and the [Heroku CLI](https://cli.heroku.com/) installed.
 
 ```sh
-$ git clone git@github.com:heroku/node-js-getting-started.git # or clone your own fork
+$ git clone git@github.com:rdkhare/BluPatch.git # or clone your own fork
 $ cd node-js-getting-started
 $ npm install
 $ npm start
