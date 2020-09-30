@@ -1,6 +1,6 @@
 # BluPatch
 
-A website that helps in connecting people around the world to discuss a world issue that is still at large, climate change.
+A website that helps in connecting people around the world to discuss a world issue that is still at large, climate change. Climate change is a very serious issue.
 
 ## Running Locally
 
